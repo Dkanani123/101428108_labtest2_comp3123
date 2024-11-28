@@ -1,0 +1,61 @@
+/* App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(134, 198, 238);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  background-color: palevioletred;
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: palevioletred;
+}
+
+.weather-container {
+  margin-top: 30px;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.weather-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.weather-details p {
+  margin: 5px 0;
+  
+}
+
+.date-time {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: rgb(20, 19, 19);
+}
